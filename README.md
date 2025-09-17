@@ -40,4 +40,4 @@ To run this program, you will need to have Python 3 installed on your system. Yo
 ---
 
 ### Screenshots
-
+![Radar Simulation](radar_simulation.gif)
