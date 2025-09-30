@@ -1,3 +1,6 @@
+import matplotlib
+# MUST be set before importing matplotlib.pyplot
+matplotlib.use('Agg') 
 import streamlit as st
 import random
 import matplotlib.pyplot as plt
@@ -119,3 +122,4 @@ st.sidebar.markdown(f"**Airplane Position:** ({x}, {y})")
 
 # Clear the Matplotlib figure to free memory
 plt.close(fig)
+
